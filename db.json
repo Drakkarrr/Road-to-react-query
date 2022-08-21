@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Junrey Lañas",
+            "age": "22"
+        },
+        {
+            "id": 2,
+            "name": "Drakkar Peanut",
+            "age": "3"
+        },
+        {
+            "id": 3,
+            "name": "Heart Blanco",
+            "age": "20"
+        }
+    ]
+}
