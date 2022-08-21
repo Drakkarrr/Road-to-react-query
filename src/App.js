@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { QueryClientProvider, QueryClient } from "react-query";
+import { ReactQueryDevtools } from "react-query/devtools";
 
 import './App.css';
 import Nav from './components/Nav';
@@ -20,6 +21,7 @@ function App() {
         <Route path='/react-query' element={<DataFetchRQ />} />
       </Routes>
       </div>
+      <ReactQueryDevtools initialIsOpen={false}  />
     </QueryClientProvider>
   );
 }
